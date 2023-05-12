@@ -1,0 +1,75 @@
+.userDetails {
+    background-color: #F2F2F2;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5%;
+    max-width: 80%;
+    margin-left: 10%;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+.userDetails_title {
+    color: #333333;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+label {
+    color: #333333;
+}
+
+h1 {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    color: #333333;
+    font-size: 3rem;
+}
+
+h5 {
+    color: #01C38D;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.userDetails_textfield {
+    color: #333333;
+    font-size: 1.2rem;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F5F5F5;
+    margin-bottom: 1rem;
+}
+
+.cancel_button {
+    background-color: #FF0000;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-decoration: none;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    text-transform: uppercase;
+    line-height: 1.5;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.cancel_button:hover {
+    background-color: #E60000;
+}
+
+.userDetails_container_buttons {
+    padding-top: 1.5rem;
+    display: flex;
+    gap: 1.5rem;
+}
